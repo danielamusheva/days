@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class dayofweek {
+    public static void main(String args[]) {
+
+    Scanner input = new Scanner(System.in);
+    int w,z;
+    System.out.print("Enter day of the week index: ");
+
+    w = input.nextInt();
+    System.out.print("Enter number of days: ");
+
+    z=input.nextInt();
+    int b = (w+z) % 7;
+    System.out.print(b);
+    }
+}
